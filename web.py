@@ -13,6 +13,7 @@ st.title("My Todo App")
 st.subheader("This is my Todo App")
 st.write("This app is to increase your productivity")
 
+#st.set_page_config(layout="wide")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
